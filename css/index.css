@@ -114,7 +114,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 5% 20px;
     justify-content: space-around;
 }
 
@@ -143,4 +143,115 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* Navigation */
+.navigation, .jumbotron{
+    width:800px;
+    margin:0 auto;
+    display:flex;
+    padding:20px 0px;
+}
+.nav{
+    display:flex;
+    width:80%;
+    justify-content:space-around;
+    align-items:flex-end;
+    padding-left:30px;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+}
+
+
+/* Boxes */
+#box1{
+    background-color:teal;
+     
+}
+#box2{
+    background-color:gold;
+     
+}
+#box3{
+    background-color:cadetblue;
+     
+}
+#box4{
+    background-color:coral;
+     
+}
+#box5{
+    background-color:crimson;
+     
+}
+#box6{
+    background-color:forestgreen;
+     
+}
+#box7{
+    background-color:darkorchid;
+     
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
+
+/* ABOUT PAGE */
+
+.break{
+    width:100%;
+    border-bottom:1px dashed black;
+    margin-bottom:30px;
+}
+
+.about{
+    width:94%;
+    margin:auto;
+    font-size:16px;
+}
+
+/* content */
+.content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width:96%;
+    margin:auto;
+}
+.contentPic{
+    width:100%;
+    margin-bottom:10px;
+}
+.contentSection{
+    border-bottom:1px dashed black;
+    width:48%;
+    margin-bottom:50px;
+    padding-bottom:30px;
+}
+.contentSection p{
+    margin-bottom:20px;
+}
+.learnMore{
+    color:black;
+	text-decoration:none;
+	border:2px solid black;
+	padding:7px 27px;
+	background-color:white;
+	border-radius:9px;
+	width:150px;
+	font-size:15px;
+    text-align:center;
+}
+
+/* Bottom content */
+.bottomContent{
+    width:94%;
+    margin:0px auto 40px auto;
 }
